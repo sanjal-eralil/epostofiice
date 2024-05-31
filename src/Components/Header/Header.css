@@ -1,0 +1,54 @@
+body{
+    margin-bottom: 20px;
+}
+.header{
+    position: fixed;
+    top: 0; left: 0;
+    width: 80%;
+    padding: 20px 100px 200px 1px;
+    background:transparent ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    
+
+}
+
+
+.logo{
+font-size: 32px;
+color: black;
+text-decoration: none;
+font-weight: 600;
+pointer-events:none;
+}
+
+.navbar a{
+font-size: 18px; color: rgb(240, 237, 237);
+text-decoration: none;
+font-weight: 500;
+margin-right: 40px ;
+}
+
+.navbar .btnLogin-popup{
+    position: relative;
+background: transparent;
+border: none;
+outline: none;
+font-size: 19px;
+color:black;
+font-weight: 500;
+cursor: pointer ;
+}
+
+.navbar .btnLogin-popup::before {
+content:'';
+position: absolute;
+left: 0;
+bottom: -4px;
+width: 100%;
+height: 2px; 
+background:black;
+opacity: .85;
+}
